@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /*Centra verticalmente el contenido*/
+    min-height: 100vh;
+    background-image: url('./img/flower2.jpg');
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed;
+}
+#container1 {
+    overflow: hidden;
+    text-align: center; /*Centra horizontalmente el contenido */
+    max-width: 500px; /* Ajusta el ancho máximo del contenedor según tu diseño */
+    background-color: #ffffff;
+    box-shadow: 0px 30px 70px 0px rgba(1, 1, 1, 1);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+div{
+    position: relative;
+    
+}
+/* seccion de imagen */
+img{
+    max-width: 500px;
+    max-height: 300px;
+    object-fit: cover;
+    padding: 0;
+}
+h1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 30px;
+    color: #ffffff;
+}
+p{
+    max-width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 10px;
+    text-align: left;
+    color: #ffffff; 
+}
+/* -----------------------------------seccion de LOGIN */
+#loginArea{
+    display: flex;
+    position: relative;
+    padding: 20px;
+    
+}
+.divI{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.divI #i1{
+    margin-top: 45px;   
+    color: #6654ce;
+}
+.divI i{
+    margin: 10px 0;
+    
+    color: #6654ce;
+}
+#loginArea .login1{
+    margin: auto;
+    text-align: center;
+}
+
+h2{
+    color: #7765e0
+}
+/* input login*/
+input{
+    text-align: left;
+    position: relative;
+    border: 2px solid #9989f3;
+    height: 25px;
+    margin: 5px;
+    color: #9989f3;
+    padding-left: 5px;
+    border-radius: 7px;
+}
+input:hover{
+    background-color: #f4f3fc;
+}
+input:focus{
+    outline: none;
+    background-color: #f4f3fc;
+    color: #9989f3;
+}
+input::placeholder {
+    color: #9989f3;
+}
+/* -----------------------------------input de texto historia */
+.input-text input{
+    background-color: #fff;
+    border: 2px solid #9989f3;
+    color: #9989f3;
+    text-align: left;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 380px;
+}
+.input-text input:hover{
+    background-color: #f4f3fc;
+}
+.input-text input::placeholder{
+    color: #9989f3;
+}
+.input-text input:focus{
+    outline: none;
+    background-color: #f4f3fc;
+    color: #9989f3;
+}
+/*------------------------------------boton send*/
+.btn{
+    background-color: #775fff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 5px;
+    box-shadow:  3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+    background-color: #8975f8;
+}
+.btn:active {
+    background-color: #c1b7f5;
+}
